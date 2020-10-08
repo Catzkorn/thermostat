@@ -9,7 +9,9 @@ class Thermostat {
     this.MAX_TEMPT_PSM = 25;
     this.MAX_TEMPT_PSM_OFF = 32;
   };
+    Thermostat
 
+  }
   getCurrentTemperature() {
     return this.temperature;
   };
